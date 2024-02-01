@@ -64,8 +64,6 @@ class ElasticsearchAT7102 < Formula
     s
   end
 
-  plist_options :manual => "elasticsearch"
-
   service do
     run [opt_bin/"elasticsearch"]
     keep_alive false
