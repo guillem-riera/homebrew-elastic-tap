@@ -1,9 +1,9 @@
-class KibanaFull < Formula
+class KibanaAT7102 < Formula
   desc "Analytics and search dashboard for Elasticsearch"
   homepage "https://www.elastic.co/products/kibana"
-  url "https://artifacts.elastic.co/downloads/kibana/kibana-7.17.4-darwin-x86_64.tar.gz?tap=elastic/homebrew-tap"
-  version "7.17.4"
-  sha256 "ac2b5a639ad83431db25e4161f811111d45db052eb845091e18f847016a34a55"
+  url "https://artifacts.elastic.co/downloads/kibana/kibana-7.10.2-darwin-x86_64.tar.gz"
+  version "7.10.2"
+  sha256 "77bc479a80128b2c039590895ff09f517d55222e2239c0ebaaf2b4b2ee783097"
 
   def install
     libexec.install(
