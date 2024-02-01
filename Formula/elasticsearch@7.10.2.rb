@@ -66,10 +66,10 @@ class ElasticsearchAT7102 < Formula
 
   service do
     run [opt_bin/"elasticsearch"]
-    keep_alive false
+    keep_alive true
     working_dir var
-    standard_error_path var/"log/elasticsearch.log"
-    standard_output_path var/"log/elasticsearch.log"
+    log_path var/"log/elasticsearch.log"
+    error_log_path var/"log/elasticsearch.log"
   end
 
   test do
